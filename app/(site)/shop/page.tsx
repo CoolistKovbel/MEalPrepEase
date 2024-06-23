@@ -51,7 +51,7 @@ const Page = async () => {
         <h2 className="text-2xl font-bold mb-4">Reviews:</h2>
 
         <div className="flex flex-col gap-4 h-[800px] overflow-auto">
-          {allReviews.map((item: any, i) => (
+          {allReviews.map((item: any, i:any) => (
             <div
               key={crypto.randomUUID()}
               className={`bg-[#444] w-full p-4 flex-col md:flex-row  justify-between flex items-center gap-5 ${
